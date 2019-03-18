@@ -7,7 +7,7 @@
     <ProjectGuid>{51F2799F-0A36-47D8-A7E6-CAF7FABC24DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>Карпов Артем.Тестирующая программа</AssemblyName>
+    <AssemblyName>1.5к.Тестирующая программа</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>w256h2561378622493catupsidedown2.ico</ApplicationIcon>
+    <ApplicationIcon>tests.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
@@ -135,6 +135,7 @@
   <ItemGroup>
     <None Include="bin\Debug\Img\circle-png-circled-thin-icon-1600.png" />
     <None Include="bin\Debug\Img\circle.png" />
+    <Content Include="tests.ico" />
     <Content Include="w256h2561378622493catupsidedown2.ico" />
     <Content Include="w512h5121389807854utilitiesterminalicon.ico" />
   </ItemGroup>

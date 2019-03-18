@@ -1,0 +1,12 @@
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Release\1.5к.Тестирующая программа.exe.config
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Release\1.5к.Тестирующая программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Release\1.5к.Тестирующая программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.auth.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.ChooseTest.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Test.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Resultat.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\1.5к.Тестирующая программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Release\1.5к.Тестирующая программа.pdb

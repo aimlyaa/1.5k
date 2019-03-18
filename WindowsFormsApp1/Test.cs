@@ -3,6 +3,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Linq;
+using System.Drawing;
 
 namespace WindowsFormsApp1
 {
@@ -16,25 +17,21 @@ namespace WindowsFormsApp1
         private void button3_MouseMove(object sender, MouseEventArgs e)
         {
             pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
         }
 
         private void button4_MouseMove(object sender, MouseEventArgs e)
         {
-            pictureBox3.Visible = true;
-            pictureBox4.Visible = true;
+            pictureBox2.Visible = true;
         }
 
         private void button5_MouseMove(object sender, MouseEventArgs e)
         {
-            pictureBox5.Visible = true;
-            pictureBox6.Visible = true;
+            pictureBox3.Visible = true;
         }
 
         private void button6_MouseMove(object sender, MouseEventArgs e)
         {
-            pictureBox7.Visible = true;
-            pictureBox8.Visible = true;
+            pictureBox4.Visible = true;
         }
 
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
@@ -45,23 +42,19 @@ namespace WindowsFormsApp1
         private void button3_MouseLeave(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox3.Visible = false;
-            pictureBox4.Visible = false;
+            pictureBox2.Visible = false;
         }
         private void button5_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox5.Visible = false;
-            pictureBox6.Visible = false;
+            pictureBox3.Visible = false;
         }
         private void button6_MouseLeave(object sender, EventArgs e)
         {
-            pictureBox7.Visible = false;
-            pictureBox8.Visible = false;
+            pictureBox4.Visible = false;
         }
         public static int one = 0;
         public static int two = 1;
@@ -82,7 +75,20 @@ namespace WindowsFormsApp1
             button5.Text = Program.ans[Program.qust_counter + three];
             button6.Text = Program.ans[Program.qust_counter + four];
             label2.Text = (Program.qust_counter + 1).ToString() + " Вопрос из 20";
-            label3.Text = Program.good.ToString() +" Правильных ответов";
+            label3.Text = "Правильных ответов из 20";
+            label5.Text = Program.good.ToString();
+            if (Program.good >= 5)
+            {
+                label5.ForeColor = Color.Orange;
+            }
+            if (Program.good >= 10)
+            {
+                label5.ForeColor = Color.Yellow;
+            }
+            if (Program.good >= 15)
+            {
+                label5.ForeColor = Color.Green;
+            }
             one = one + 3;
             two = two + 3;
             three = three + 3;
@@ -98,6 +104,7 @@ namespace WindowsFormsApp1
 
         private void Form3_Load(object sender, EventArgs e)
         {
+            Text = auth.name + ", " + Program.test_name;
             var q = 0;
             var y = 1;
             var x = 0;
@@ -128,7 +135,7 @@ namespace WindowsFormsApp1
             if (Program.qust_counter >= 20)
             {
                 check();
-                label3.Text = Program.good.ToString() + " Правильных ответов";
+                label5.Text = Program.good.ToString();
                 disable_button();
             }
             else
@@ -145,7 +152,7 @@ namespace WindowsFormsApp1
             if (Program.qust_counter >= 20)
             {
                 check();
-                label3.Text = Program.good.ToString() + " Правильных ответов";
+                label5.Text = Program.good.ToString();
                 disable_button();
             }
             else
@@ -162,7 +169,7 @@ namespace WindowsFormsApp1
             if (Program.qust_counter >= 20)
             {
                 check();
-                label3.Text = Program.good.ToString() + " Правильных ответов";
+                label5.Text = Program.good.ToString();
                 disable_button();
             }
             else
@@ -179,7 +186,7 @@ namespace WindowsFormsApp1
             if (Program.qust_counter >= 20)
             {
                 check();
-                label3.Text = Program.good.ToString() + " Правильных ответов";
+                label5.Text = Program.good.ToString();
                 disable_button();
             }
             else
@@ -226,6 +233,11 @@ namespace WindowsFormsApp1
         {
             Program.timer--;
             label4.Text = "Осталось " + Program.timer + " минут";
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

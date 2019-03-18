@@ -50,3 +50,16 @@ C:\Users\aimlyaa\Desktop\shara\Artem\WindowsFormsApp1\bin\Debug\Карпов А�
 C:\Users\aimlyaa\Desktop\shara\Artem\WindowsFormsApp1\bin\Debug\Карпов Артем.Тестирующая программа.pdb
 C:\Users\aimlyaa\Desktop\shara\Artem\WindowsFormsApp1\obj\Debug\Карпов Артем.Тестирующая программа.exe
 C:\Users\aimlyaa\Desktop\shara\Artem\WindowsFormsApp1\obj\Debug\Карпов Артем.Тестирующая программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.auth.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChooseTest.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Test.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Resultat.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.exe.config
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Тестирующая программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Тестирующая программа.pdb

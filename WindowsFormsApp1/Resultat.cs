@@ -18,6 +18,7 @@ namespace WindowsFormsApp1
 
         private void Form4_Load(object sender, EventArgs e)
         {
+            Text = auth.name + ", " + Program.test_name;
             if (Program.ended)
             {
                 StreamReader sr = new StreamReader(@"результаты\" + auth.name + ", " + Program.test_name + ".txt");
@@ -29,26 +30,30 @@ namespace WindowsFormsApp1
             }
             else
             {
-                label1.Text =
-                @"Результат " + Program.good + " правильных вопросов из 20 \n\n\n" +
-                "Оценка: ";
+                label1.Text = "РЕЗУЛЬТАТ:";
+                label4.Text = "ОЦЕНКА:";
                 if (Program.ocenka == 2)
                 {
                     label2.ForeColor = Color.Red;
+                    label3.ForeColor = Color.Red;
                 }
                 if (Program.ocenka == 3)
                 {
                     label2.ForeColor = Color.Orange;
+                    label3.ForeColor = Color.Orange;
                 }
                 if (Program.ocenka == 4)
                 {
                     label2.ForeColor = Color.Yellow;
+                    label3.ForeColor = Color.Yellow;
                 }
                 if (Program.ocenka == 5)
                 {
                     label2.ForeColor = Color.Green;
+                    label3.ForeColor = Color.Green;
                 }
                 label2.Text = Program.ocenka.ToString();
+                label3.Text = Program.good + " правильных вопросов из 20";
             }
         }
 
