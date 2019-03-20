@@ -21,12 +21,29 @@ namespace WindowsFormsApp1
             Text = auth.name + ", " + Program.test_name;
             if (Program.ended)
             {
+                label1.Text = "РЕЗУЛЬТАТ:";
+                label4.Text = "ОЦЕНКА:";
+                label3.ForeColor = Color.Red;
                 StreamReader sr = new StreamReader(@"результаты\" + auth.name + ", " + Program.test_name + ".txt");
-                for (int i = 0; i < File.ReadAllLines(@"результаты\" + auth.name + ", " + Program.test_name + ".txt").Length; i++)
-                {
                     line = sr.ReadLine();
-                    label1.Text = label1.Text + line;
-                }
+                    if (int.Parse(line.Substring(0, 2)) >= 5)
+                    {
+                        label2.ForeColor = Color.Orange;
+                        label3.ForeColor = Color.Orange;
+                    }
+                    if (int.Parse(line.Substring(0, 2)) >= 10)
+                    {
+                        label2.ForeColor = Color.Yellow;
+                        label3.ForeColor = Color.Yellow;
+                    }
+                    if (int.Parse(line.Substring(0, 2)) >= 15)
+                    {
+                        label2.ForeColor = Color.Green;
+                        label3.ForeColor = Color.Green;
+                    }
+                    label3.Text = label3.Text + line;
+                    line = sr.ReadLine();
+                    label2.Text = label2.Text + line.Substring(8, 1);
             }
             else
             {
