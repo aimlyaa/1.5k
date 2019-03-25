@@ -7,7 +7,7 @@
     <ProjectGuid>{51F2799F-0A36-47D8-A7E6-CAF7FABC24DA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>1.5к.Тестирующая программа</AssemblyName>
+    <AssemblyName>1.5к.Интерактивная программа</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -77,6 +77,18 @@
     <Compile Include="ChooseTest.Designer.cs">
       <DependentUpon>ChooseTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lection.Designer.cs">
+      <DependentUpon>Lection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseTest.resx">
       <DependentUpon>ChooseTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lection.resx">
+      <DependentUpon>Lection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test.resx">
       <DependentUpon>Test.cs</DependentUpon>
@@ -135,6 +153,11 @@
   <ItemGroup>
     <None Include="bin\Debug\Img\circle-png-circled-thin-icon-1600.png" />
     <None Include="bin\Debug\Img\circle.png" />
+    <None Include="Resources\Восклицательный-знак.png" />
+    <None Include="Resources\space-03.jpg" />
+    <None Include="Resources\space-03.png" />
+    <None Include="Resources\6.png" />
+    <None Include="Resources\Безымянный.png" />
     <Content Include="tests.ico" />
     <Content Include="w256h2561378622493catupsidedown2.ico" />
     <Content Include="w512h5121389807854utilitiesterminalicon.ico" />
@@ -151,8 +174,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

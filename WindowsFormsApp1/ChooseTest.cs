@@ -20,7 +20,9 @@ namespace WindowsFormsApp1
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Environment.Exit(0);
+            main main = new main();
+            Hide();
+            main.Show();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -62,7 +64,7 @@ namespace WindowsFormsApp1
         private void ChooseTest_Load(object sender, EventArgs e)
         {
             fileArray = Directory.GetFiles(@"тесты\", "*.txt");
-            for (var i = 0; i < 4; i++)
+            for (var i = 0; i < fileArray.Length; i++)
             {
                 checkedListBox1.Items.Add(fileArray[i].Substring(6, fileArray[i].Length - 10));
             }

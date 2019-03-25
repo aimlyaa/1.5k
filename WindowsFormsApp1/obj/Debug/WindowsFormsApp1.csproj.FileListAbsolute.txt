@@ -58,8 +58,10 @@ C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
-C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.exe.config
-C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.exe
-C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Тестирующая программа.pdb
-C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Тестирующая программа.exe
-C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Тестирующая программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Интерактивная программа.exe.config
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Интерактивная программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\bin\Debug\1.5к.Интерактивная программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Интерактивная программа.exe
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Интерактивная программа.pdb
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Lection.resources

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов, чтобы изменить сведения,
 // связанные со сборкой.
-[assembly: AssemblyTitle("1.5к. Тестирующая программа")]
+[assembly: AssemblyTitle("1.5к. Интерактивная программа")]
 [assembly: AssemblyDescription("Дипломная работа")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ПКТиМ")]
-[assembly: AssemblyProduct("Тестирующая программа")]
+[assembly: AssemblyProduct("Интерактивная программа")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

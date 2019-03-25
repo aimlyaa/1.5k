@@ -76,7 +76,9 @@ namespace WindowsFormsApp1
 
         private void Form4_FormClosed(object sender, FormClosedEventArgs e)
         {
+            main main = new main();
             Environment.Exit(0);
+            main.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)

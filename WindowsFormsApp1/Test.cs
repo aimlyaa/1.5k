@@ -36,7 +36,9 @@ namespace WindowsFormsApp1
 
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
         {
+            main main = new main();
             Environment.Exit(0);
+            main.Show();
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)

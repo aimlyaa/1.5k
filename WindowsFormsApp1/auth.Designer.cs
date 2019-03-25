@@ -33,7 +33,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Авторизация = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -87,18 +87,17 @@
             this.textBox2.Size = new System.Drawing.Size(455, 38);
             this.textBox2.TabIndex = 4;
             // 
-            // Авторизация
+            // label3
             // 
-            this.Авторизация.AutoSize = true;
-            this.Авторизация.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Авторизация.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Авторизация.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Авторизация.Location = new System.Drawing.Point(13, 134);
-            this.Авторизация.Name = "Авторизация";
-            this.Авторизация.Size = new System.Drawing.Size(70, 26);
-            this.Авторизация.TabIndex = 6;
-            this.Авторизация.Text = "label3";
-            this.Авторизация.Visible = false;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(14, 138);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(237, 24);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Пользователь не найден";
+            this.label3.Visible = false;
             // 
             // auth
             // 
@@ -106,7 +105,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(563, 182);
-            this.Controls.Add(this.Авторизация);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
@@ -120,6 +119,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Авторизация";
             this.TopMost = true;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.auth_FormClosed);
             this.Load += new System.EventHandler(this.auth_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -133,7 +133,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label Авторизация;
+        private System.Windows.Forms.Label label3;
     }
 }
 

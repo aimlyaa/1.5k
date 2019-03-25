@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
 
             try
             {
-                Авторизация.Visible = false;
+                label3.Visible = false;
                 StreamReader sr = new StreamReader(@"группы\"+group+".txt");
 
                 for (int i = 0; i < File.ReadAllLines(@"группы\" + group + ".txt").Length; i++)
@@ -36,16 +36,23 @@ namespace WindowsFormsApp1
                     }
                     else
                     {
-                        Авторизация.Text = "Пользователь не найден";
-                        Авторизация.Visible = true;
+                        label3.Text = "Пользователь не найден";
+                        label3.Visible = true;
                     }
                 }
             }
             catch
             {
-                Авторизация.Text = "Пользователь не найден";
-                Авторизация.Visible = true;
+                label3.Text = "Пользователь не найден";
+                label3.Visible = true;
             }
+        }
+
+        private void auth_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            main main = new main();
+            Hide();
+            main.Show();
         }
 
         private void auth_Load(object sender, EventArgs e)
