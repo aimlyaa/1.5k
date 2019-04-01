@@ -26,8 +26,8 @@ namespace WindowsFormsApp1
 
         private void Lection_Resize(object sender, System.EventArgs e)
         {
-            System.Drawing.Point fulscreen_point = new System.Drawing.Point(Width/2-pictureBox1.Width/2,10);
-            flowLayoutPanel1.Location = fulscreen_point;
+            //System.Drawing.Point fulscreen_point = new System.Drawing.Point(Width/2-pictureBox1.Width/2,10);
+            //flowLayoutPanel1.Location = fulscreen_point;
         }
     }
 }
