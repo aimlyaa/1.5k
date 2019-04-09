@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Text;
-using System.Windows.Forms;
+using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Drawing;
+using System.Text;
+using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
@@ -36,9 +36,7 @@ namespace WindowsFormsApp1
 
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
         {
-            main main = new main();
-            Environment.Exit(0);
-            main.Show();
+
         }
 
         private void button3_MouseLeave(object sender, EventArgs e)
@@ -64,7 +62,7 @@ namespace WindowsFormsApp1
         public static int four = 3;
         public void check()
         {
-            if (Program.curr_answ == Program.good_ans[Program.qust_counter -1])
+            if (Program.curr_answ == Program.good_ans[Program.qust_counter - 1])
             {
                 Program.good++;
             }
@@ -107,16 +105,16 @@ namespace WindowsFormsApp1
         private void Form3_Load(object sender, EventArgs e)
         {
             Text = auth.name + ", " + Program.test_name;
-            var q = 0;
-            var y = 1;
-            var x = 0;
-            var z = 5;
+            int q = 0;
+            int y = 1;
+            int x = 0;
+            int z = 5;
             StreamReader sr = new StreamReader(ChooseTest.fileArray[Program.var]);
-            for (var i = 0; i < 20; i++)
+            for (int i = 0; i < 20; i++)
             {
                 Program.qsts[i] = File.ReadLines(ChooseTest.fileArray[Program.var]).Skip(q).First();
                 Program.good_ans[i] = File.ReadLines(ChooseTest.fileArray[Program.var]).Skip(z).First();
-                for (var p = 0; p < 4; p++)
+                for (int p = 0; p < 4; p++)
                 {
                     Program.ans[x] = File.ReadLines(ChooseTest.fileArray[Program.var]).Skip(y).First();
                     y++;
@@ -124,9 +122,9 @@ namespace WindowsFormsApp1
                 }
                 z = z + 6;
                 q = q + 6;
-                y = y+2;
+                y = y + 2;
             }
-            label4.Text = "Осталось "+ Program.timer + " минут";
+            label4.Text = "Осталось " + Program.timer + " минут";
             work();
         }
 
@@ -212,12 +210,13 @@ namespace WindowsFormsApp1
             {
                 Program.ocenka = 5;
             }
-            FileStream sr = new FileStream(@"результаты\" + auth.name + ", " + Program.test_name+".txt", FileMode.OpenOrCreate);
-            byte[] array = Encoding.UTF8.GetBytes(Program.good + " правильных ответов из 20 \n" + "Оценка: " + Program.ocenka + "\n Пройдено: "+ DateTime.Now.ToString("MM/dd/yy H:mm:ss"));
+            FileStream sr = new FileStream(@"результаты\" + auth.name + ", " + Program.test_name + ".txt", FileMode.OpenOrCreate);
+            byte[] array = Encoding.UTF8.GetBytes(Program.good + " правильных ответов из 20 \n" + "Оценка: " + Program.ocenka + "\n Пройдено: " + DateTime.Now.ToString("MM/dd/yy H:mm:ss"));
             sr.Write(array, 0, array.Length);
             Resultat TestResult = new Resultat();
             Hide();
-            TestResult.Show();
+            Close();
+            TestResult.ShowDialog();
         }
 
         private void Form3_Shown(object sender, EventArgs e)
@@ -227,7 +226,8 @@ namespace WindowsFormsApp1
                 Program.ended = true;
                 Resultat TestResult = new Resultat();
                 Hide();
-                TestResult.Show();
+                Close();
+                TestResult.ShowDialog();
             }
         }
 

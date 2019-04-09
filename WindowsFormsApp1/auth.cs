@@ -31,7 +31,8 @@ namespace WindowsFormsApp1
                     {
                         ChooseTest GetTestForm = new ChooseTest();
                         Hide();
-                        GetTestForm.Show();
+                        Close();
+                        GetTestForm.ShowDialog();
                         break;
                     }
                     else
@@ -50,9 +51,7 @@ namespace WindowsFormsApp1
 
         private void auth_FormClosed(object sender, FormClosedEventArgs e)
         {
-            main main = new main();
-            Hide();
-            main.Show();
+
         }
 
         private void auth_Load(object sender, EventArgs e)

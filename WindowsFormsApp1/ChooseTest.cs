@@ -20,9 +20,7 @@ namespace WindowsFormsApp1
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
         {
-            main main = new main();
-            Hide();
-            main.Show();
+
         }
 
         private void button1_Click_1(object sender, EventArgs e)
@@ -90,24 +88,24 @@ namespace WindowsFormsApp1
                 Program.var = 0;
                 Program.test_name = fileArray[0].Substring(6, fileArray[0].Length - 10);
                 Test TestForm = new Test();
-                Hide();
-                TestForm.Show();
+                Close();
+                TestForm.ShowDialog();
             }
             if (checkedListBox1.SelectedIndex == 1)
             {
                 Program.var = 1;
                 Program.test_name = fileArray[1].Substring(6, fileArray[1].Length - 10);
                 Test TestForm = new Test();
-                Hide();
-                TestForm.Show();
+                Close();
+                TestForm.ShowDialog();
             }
             if (checkedListBox1.SelectedIndex == 2)
             {
                 Program.var = 2;
                 Program.test_name = fileArray[2].Substring(6, fileArray[2].Length - 10);
                 Test TestForm = new Test();
-                Hide();
-                TestForm.Show();
+                Close();
+                TestForm.ShowDialog();
             }
             if (checkedListBox1.SelectedIndex == 3)
             {
@@ -115,7 +113,8 @@ namespace WindowsFormsApp1
                 Program.test_name = fileArray[3].Substring(6, fileArray[3].Length - 10);
                 Test TestForm = new Test();
                 Hide();
-                TestForm.Show();
+                Close();
+                TestForm.ShowDialog();
             }
             if (checkedListBox1.SelectedItem == null)
             {

@@ -13,7 +13,8 @@ namespace WindowsFormsApp1
         public static string line;
         private void button1_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            Hide();
+            Close();
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -76,9 +77,8 @@ namespace WindowsFormsApp1
 
         private void Form4_FormClosed(object sender, FormClosedEventArgs e)
         {
-            main main = new main();
-            Environment.Exit(0);
-            main.Show();
+            Hide();
+            Close();
         }
 
         private void label1_Click(object sender, EventArgs e)

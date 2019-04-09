@@ -77,6 +77,18 @@
     <Compile Include="ChooseTest.Designer.cs">
       <DependentUpon>ChooseTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="succes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="succes.Designer.cs">
+      <DependentUpon>succes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="reg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reg.Designer.cs">
+      <DependentUpon>reg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChooseTest.resx">
       <DependentUpon>ChooseTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="succes.resx">
+      <DependentUpon>succes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reg.resx">
+      <DependentUpon>reg.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lection.resx">
       <DependentUpon>Lection.cs</DependentUpon>
@@ -180,6 +198,7 @@
     <None Include="Resources\l15.png" />
     <None Include="Resources\pr6.png" />
     <None Include="Resources\pr7.png" />
+    <None Include="Resources\uqe586kh9ez11.png" />
     <Content Include="tests.ico" />
     <Content Include="w256h2561378622493catupsidedown2.ico" />
     <Content Include="w512h5121389807854utilitiesterminalicon.ico" />

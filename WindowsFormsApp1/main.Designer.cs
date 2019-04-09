@@ -59,12 +59,19 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button24 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -99,6 +106,7 @@
             this.tabPage1.Controls.Add(this.button5);
             this.tabPage1.Controls.Add(this.button3);
             this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.pictureBox2);
             this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.tabPage1.Location = new System.Drawing.Point(4, 33);
@@ -284,6 +292,7 @@
             this.tabPage2.Controls.Add(this.button9);
             this.tabPage2.Controls.Add(this.button8);
             this.tabPage2.Controls.Add(this.button6);
+            this.tabPage2.Controls.Add(this.pictureBox3);
             this.tabPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage2.Location = new System.Drawing.Point(4, 33);
             this.tabPage2.Name = "tabPage2";
@@ -366,8 +375,10 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.button24);
             this.tabPage3.Controls.Add(this.groupBox1);
             this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.pictureBox4);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabPage3.Location = new System.Drawing.Point(4, 33);
             this.tabPage3.Name = "tabPage3";
@@ -378,6 +389,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.uqe586kh9ez11;
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(8, 3);
@@ -410,23 +422,62 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(442, 477);
+            this.button1.Location = new System.Drawing.Point(331, 480);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(367, 128);
+            this.button1.Size = new System.Drawing.Size(261, 128);
             this.button1.TabIndex = 0;
-            this.button1.Text = "НАЧАТЬ ТЕСТИРОВАНИЕ";
+            this.button1.Text = "Войти";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(155, 0);
+            this.label2.Location = new System.Drawing.Point(155, 1);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(949, 31);
             this.label2.TabIndex = 1;
             this.label2.Text = "Электронная обучающая программа по дисциплине ОУД 12 \"Астрономия\'";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::WindowsFormsApp1.Properties.Resources.uqe586kh9ez11;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1251, 619);
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::WindowsFormsApp1.Properties.Resources.uqe586kh9ez11;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1251, 615);
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::WindowsFormsApp1.Properties.Resources.uqe586kh9ez11;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(1251, 615);
+            this.pictureBox4.TabIndex = 2;
+            this.pictureBox4.TabStop = false;
+            // 
+            // button24
+            // 
+            this.button24.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button24.Location = new System.Drawing.Point(663, 480);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(274, 128);
+            this.button24.TabIndex = 3;
+            this.button24.Text = "Регистрация";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.Button24_Click);
             // 
             // main
             // 
@@ -437,6 +488,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tabControl1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "main";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -448,6 +501,9 @@
             this.tabPage3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -486,5 +542,9 @@
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

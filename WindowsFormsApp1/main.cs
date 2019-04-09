@@ -58,8 +58,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             auth auth = new auth();
-            auth.Show();
-            Hide();
+            auth.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -115,12 +114,12 @@ namespace WindowsFormsApp1
             Lection lect = new Lection();
             lect.pictureBox1.Image = Properties.Resources.l7;
             lect.Text = "Лекция 7.Адаптивная оптика в современных рефлекторах.";
-            lect.Show(); 
+            lect.Show();
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            
+
             Lection lect = new Lection();
             lect.pictureBox1.Image = Properties.Resources.l8;
             lect.Text = "Лекция 8.Дифракционный предел телескопа.";
@@ -202,6 +201,12 @@ namespace WindowsFormsApp1
             lect.pictureBox1.Image = Properties.Resources.pr7;
             lect.Text = "Работа N 7. Определение расстояний иразмеров тел в солнечной системе.";
             lect.Show();
+        }
+
+        private void Button24_Click(object sender, EventArgs e)
+        {
+            reg reg = new reg();
+            reg.ShowDialog();
         }
     }
 }

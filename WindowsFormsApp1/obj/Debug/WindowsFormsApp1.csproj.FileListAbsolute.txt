@@ -65,3 +65,5 @@ C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Интер�
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\1.5к.Интерактивная программа.pdb
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
 C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Lection.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reg.resources
+C:\Users\aimlyaa\Desktop\shara\1.5k\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.succes.resources
