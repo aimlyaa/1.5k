@@ -85,3 +85,21 @@ D:\  \shara\1.5k\WindowsFormsApp1\bin\Debug\Данченко.Интеракт�
 D:\  \shara\1.5k\WindowsFormsApp1\bin\Debug\Данченко.Интерактивная программа.pdb
 D:\  \shara\1.5k\WindowsFormsApp1\obj\Debug\Данченко.Интерактивная программа.exe
 D:\  \shara\1.5k\WindowsFormsApp1\obj\Debug\Данченко.Интерактивная программа.pdb
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\bin\Debug\Данченко.Интерактивная программа.exe.config
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\bin\Debug\Данченко.Интерактивная программа.exe
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\bin\Debug\Данченко.Интерактивная программа.pdb
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.about.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.auth.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ChooseTest.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.succes.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.reg.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Lection.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Test.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Resultat.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\Данченко.Интерактивная программа.exe
+D:\  \shara\1.5k\Исходники\WindowsFormsApp1\obj\Debug\Данченко.Интерактивная программа.pdb
